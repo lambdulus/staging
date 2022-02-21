@@ -40,6 +40,7 @@ jobs:
         echo ${{ github.event.client_payload.branch }}
     - run: |
         rm -rf ./staging/${{ github.event.client_payload.branch }}/*
+        mkdir ./staging/${{ github.event.client_payload.branch }}
         mv ./build/* ./staging/${{ github.event.client_payload.branch }}/
     - run: |
         cd ./staging/${{ github.event.client_payload.branch }}

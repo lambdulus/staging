@@ -23,7 +23,7 @@ jobs:
       with:
         # Repository name with owner. For example, actions/checkout
         repository: 'lambdulus/frontend'
-        ref: 'develop'
+        ref: ${{ github.event.pull_request.head.ref }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
@@ -37,11 +37,10 @@ jobs:
       with:
         path: 'staging'
     - run: |
-        rm -rf ./staging/*
-        mv ./build/* ./staging/
-        echo ${{ github.event.client_payload.branch }} >> branch_name
+        rm -rf ./staging/${{ github.event.pull_request.head.ref }}/*
+        mv ./build/* ./staging/${{ github.event.pull_request.head.ref }}/
     - run: |
-        cd ./staging
+        cd ./staging/${{ github.event.pull_request.head.ref }}
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .

@@ -16,9 +16,6 @@ jobs:
     
     steps:
     - name: Event Handle - Execute the deployment process
-#     - env:
-#         BRANCH: ${{ github.event.client_payload.branch }}
-#         run: echo $BRANCH
       uses: actions/checkout@v2
       with:
         # Repository name with owner. For example, actions/checkout
@@ -37,7 +34,7 @@ jobs:
       with:
         path: 'staging'
     - run: |
-        rm -rf ./staging/${{ github.event.client_payload.branch }}/*
+        rm -rf ./staging/${{ github.event.client_payload.branch }}
         mkdir ./staging/${{ github.event.client_payload.branch }}
         mv ./build/* ./staging/${{ github.event.client_payload.branch }}/
     - run: |

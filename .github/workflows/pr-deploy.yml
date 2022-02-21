@@ -37,10 +37,12 @@ jobs:
       with:
         path: 'staging'
     - run: |
-        rm -rf ./staging/${{ github.event.pull_request.head.ref }}/*
-        mv ./build/* ./staging/${{ github.event.pull_request.head.ref }}/
+        echo ${{ github.event.client_payload.branch }}
     - run: |
-        cd ./staging/${{ github.event.pull_request.head.ref }}
+        rm -rf ./staging/${{ github.event.client_payload.branch }}/*
+        mv ./build/* ./staging/${{ github.event.client_payload.branch }}/
+    - run: |
+        cd ./staging/${{ github.event.client_payload.branch }}
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .

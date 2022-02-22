@@ -39,7 +39,7 @@ jobs:
         mkdir ./staging/pr/${{ github.event.client_payload.branch }}
         mv ./build/* ./staging/pr/${{ github.event.client_payload.branch }}/
     - run: |
-        cd ./staging/${{ github.event.client_payload.branch }}
+        cd ./staging/pr/${{ github.event.client_payload.branch }}
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .

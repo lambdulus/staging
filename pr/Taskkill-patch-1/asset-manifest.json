@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/css/main.b5091c2d.chunk.css",
+    "main.js": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/main.5b8ee2ba.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/main.5b8ee2ba.chunk.js.map",
+    "runtime-main.js": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/runtime-main.624099c6.js",
+    "runtime-main.js.map": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/runtime-main.624099c6.js.map",
+    "static/css/2.da3982e0.chunk.css": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/css/2.da3982e0.chunk.css",
+    "static/js/2.77d0c30b.chunk.js": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/2.77d0c30b.chunk.js",
+    "static/js/2.77d0c30b.chunk.js.map": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/2.77d0c30b.chunk.js.map",
+    "index.html": "https://lambdulus.github.io/staging/Taskkill-patch-1/index.html",
+    "static/css/2.da3982e0.chunk.css.map": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/css/2.da3982e0.chunk.css.map",
+    "static/css/main.b5091c2d.chunk.css.map": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/css/main.b5091c2d.chunk.css.map",
+    "static/js/2.77d0c30b.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/js/2.77d0c30b.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "https://lambdulus.github.io/staging/Taskkill-patch-1/static/media/codicon.68664da4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.624099c6.js",
+    "static/css/2.da3982e0.chunk.css",
+    "static/js/2.77d0c30b.chunk.js",
+    "static/css/main.b5091c2d.chunk.css",
+    "static/js/main.5b8ee2ba.chunk.js"
+  ]
+}

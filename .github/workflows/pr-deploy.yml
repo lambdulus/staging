@@ -34,9 +34,10 @@ jobs:
       with:
         path: 'staging'
     - run: |
-        rm -rf ./staging/${{ github.event.client_payload.branch }}
-        mkdir ./staging/${{ github.event.client_payload.branch }}
-        mv ./build/* ./staging/${{ github.event.client_payload.branch }}/
+        mkdir ./staging/pr
+        rm -rf ./staging/pr/${{ github.event.client_payload.branch }}
+        mkdir ./staging/pr/${{ github.event.client_payload.branch }}
+        mv ./build/* ./staging/pr/${{ github.event.client_payload.branch }}/
     - run: |
         cd ./staging/${{ github.event.client_payload.branch }}
         git config user.name github-actions

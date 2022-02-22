@@ -34,7 +34,10 @@ jobs:
       with:
         path: 'staging'
     - run: |
-        rm -rf ./staging/*
+        cd ./staging/
+        shopt -s extglob
+        rm -rf !(pr)
+        cd ..
         mv ./build/* ./staging/
     - run: |
         cd ./staging

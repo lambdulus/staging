@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: |
         npm ci
-        REACT_APP_VERSION_INFO=$(date +"%m-%d-%y-%T") REACT_APP_COMMIT=$(git rev-parse HEAD) PUBLIC_URL=https://lambdulus.github.io/staging/${{ github.event.client_payload.branch }} npm run build --if-present
+        REACT_APP_VERSION_INFO=$(date +"%m-%d-%y-%T") REACT_APP_COMMIT=$(git rev-parse HEAD) PUBLIC_URL=https://lambdulus.github.io/staging/pr/${{ github.event.client_payload.branch }} npm run build --if-present
     - name: Checkout the current repo
       uses: actions/checkout@v2
       with:

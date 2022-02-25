@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/css/main.b5091c2d.chunk.css",
-    "main.js": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/main.a816ecc8.chunk.js",
-    "main.js.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/main.a816ecc8.chunk.js.map",
+    "main.js": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/main.7e3d16ca.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/main.7e3d16ca.chunk.js.map",
     "runtime-main.js": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/runtime-main.8df59328.js",
     "runtime-main.js.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/runtime-main.8df59328.js.map",
     "static/css/2.8ad343b6.chunk.css": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/css/2.8ad343b6.chunk.css",
-    "static/js/2.3c32d31a.chunk.js": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.3c32d31a.chunk.js",
-    "static/js/2.3c32d31a.chunk.js.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.3c32d31a.chunk.js.map",
+    "static/js/2.66aa916a.chunk.js": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.66aa916a.chunk.js",
+    "static/js/2.66aa916a.chunk.js.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.66aa916a.chunk.js.map",
     "index.html": "https://lambdulus.github.io/staging/pr/tiny-lisp/index.html",
     "static/css/2.8ad343b6.chunk.css.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/css/2.8ad343b6.chunk.css.map",
     "static/css/main.b5091c2d.chunk.css.map": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/css/main.b5091c2d.chunk.css.map",
-    "static/js/2.3c32d31a.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.3c32d31a.chunk.js.LICENSE.txt",
+    "static/js/2.66aa916a.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/js/2.66aa916a.chunk.js.LICENSE.txt",
     "static/media/codicon.css": "https://lambdulus.github.io/staging/pr/tiny-lisp/static/media/codicon.68664da4.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.8df59328.js",
     "static/css/2.8ad343b6.chunk.css",
-    "static/js/2.3c32d31a.chunk.js",
+    "static/js/2.66aa916a.chunk.js",
     "static/css/main.b5091c2d.chunk.css",
-    "static/js/main.a816ecc8.chunk.js"
+    "static/js/main.7e3d16ca.chunk.js"
   ]
 }

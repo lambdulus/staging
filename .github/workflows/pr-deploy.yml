@@ -20,7 +20,7 @@ jobs:
       with:
         # Repository name with owner. For example, actions/checkout
         repository: 'lambdulus/frontend'
-        ref: ${{ github.event.pull_request.head.ref }}
+        ref: ${{ github.event.client_payload.branch }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:

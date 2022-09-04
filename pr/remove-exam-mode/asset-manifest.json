@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/css/main.8e659137.chunk.css",
+    "main.js": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/main.50016e39.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/main.50016e39.chunk.js.map",
+    "runtime-main.js": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/runtime-main.761d3758.js",
+    "runtime-main.js.map": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/runtime-main.761d3758.js.map",
+    "static/css/2.c61c457c.chunk.css": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/css/2.c61c457c.chunk.css",
+    "static/js/2.344141d0.chunk.js": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/2.344141d0.chunk.js",
+    "static/js/2.344141d0.chunk.js.map": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/2.344141d0.chunk.js.map",
+    "index.html": "https://lambdulus.github.io/staging/pr/remove-exam-mode/index.html",
+    "static/css/2.c61c457c.chunk.css.map": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/css/2.c61c457c.chunk.css.map",
+    "static/css/main.8e659137.chunk.css.map": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/css/main.8e659137.chunk.css.map",
+    "static/js/2.344141d0.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/js/2.344141d0.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "https://lambdulus.github.io/staging/pr/remove-exam-mode/static/media/codicon.68664da4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.761d3758.js",
+    "static/css/2.c61c457c.chunk.css",
+    "static/js/2.344141d0.chunk.js",
+    "static/css/main.8e659137.chunk.css",
+    "static/js/main.50016e39.chunk.js"
+  ]
+}

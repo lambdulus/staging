@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://lambdulus.github.io/staging/pr/darker-mode/static/css/main.4cfd902d.chunk.css",
+    "main.js": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/main.6aede73c.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/main.6aede73c.chunk.js.map",
+    "runtime-main.js": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/runtime-main.e98707ad.js",
+    "runtime-main.js.map": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/runtime-main.e98707ad.js.map",
+    "static/css/2.75d4bf8f.chunk.css": "https://lambdulus.github.io/staging/pr/darker-mode/static/css/2.75d4bf8f.chunk.css",
+    "static/js/2.535046dd.chunk.js": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/2.535046dd.chunk.js",
+    "static/js/2.535046dd.chunk.js.map": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/2.535046dd.chunk.js.map",
+    "index.html": "https://lambdulus.github.io/staging/pr/darker-mode/index.html",
+    "static/css/2.75d4bf8f.chunk.css.map": "https://lambdulus.github.io/staging/pr/darker-mode/static/css/2.75d4bf8f.chunk.css.map",
+    "static/css/main.4cfd902d.chunk.css.map": "https://lambdulus.github.io/staging/pr/darker-mode/static/css/main.4cfd902d.chunk.css.map",
+    "static/js/2.535046dd.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/darker-mode/static/js/2.535046dd.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "https://lambdulus.github.io/staging/pr/darker-mode/static/media/codicon.68664da4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e98707ad.js",
+    "static/css/2.75d4bf8f.chunk.css",
+    "static/js/2.535046dd.chunk.js",
+    "static/css/main.4cfd902d.chunk.css",
+    "static/js/main.6aede73c.chunk.js"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/css/main.e2ce160e.chunk.css",
+    "main.js": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/main.91f7d907.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/main.91f7d907.chunk.js.map",
+    "runtime-main.js": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/runtime-main.342977c5.js",
+    "runtime-main.js.map": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/runtime-main.342977c5.js.map",
+    "static/css/2.ea73dc11.chunk.css": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/css/2.ea73dc11.chunk.css",
+    "static/js/2.89d11df2.chunk.js": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/2.89d11df2.chunk.js",
+    "static/js/2.89d11df2.chunk.js.map": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/2.89d11df2.chunk.js.map",
+    "index.html": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/index.html",
+    "static/css/2.ea73dc11.chunk.css.map": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/css/2.ea73dc11.chunk.css.map",
+    "static/css/main.e2ce160e.chunk.css.map": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/css/main.e2ce160e.chunk.css.map",
+    "static/js/2.89d11df2.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/js/2.89d11df2.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "https://lambdulus.github.io/staging/pr/refactor-use-contexts/static/media/codicon.68664da4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.342977c5.js",
+    "static/css/2.ea73dc11.chunk.css",
+    "static/js/2.89d11df2.chunk.js",
+    "static/css/main.e2ce160e.chunk.css",
+    "static/js/main.91f7d907.chunk.js"
+  ]
+}

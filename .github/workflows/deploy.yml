@@ -49,4 +49,11 @@ jobs:
         git config user.email github-actions@github.com
         git add .
         git commit -m "deploy"
-        git push
+        # Merge and purge runs race on every PR close; rebase and retry
+        # the push instead of failing on a stale checkout.
+        for i in 1 2 3; do
+          git fetch origin
+          git rebase origin/main && git push && break
+          git rebase --abort
+          sleep 5
+        done

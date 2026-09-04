@@ -20,7 +20,14 @@ jobs:
         git add .
         if [ -n "$(git status --porcelain)" ]; then
           git commit -m "purging"
-          git push
+          # Merge and purge runs race on every PR close; rebase and retry
+          # the push instead of failing on a stale checkout.
+          for i in 1 2 3; do
+            git fetch origin
+            git rebase origin/main && git push && break
+            git rebase --abort
+            sleep 5
+          done
         else
           echo "nothing to purge"
         fi

@@ -40,7 +40,7 @@ jobs:
     - run: |
         mkdir -p ./staging/pr
         rm -rf ./staging/pr/${{ github.event.client_payload.branch }}
-        mkdir ./staging/pr/${{ github.event.client_payload.branch }}
+        mkdir -p ./staging/pr/${{ github.event.client_payload.branch }}
         mv ./build/* ./staging/pr/${{ github.event.client_payload.branch }}/
     - run: |
         cd ./staging/pr/${{ github.event.client_payload.branch }}

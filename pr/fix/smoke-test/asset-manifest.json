@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/css/main.75977b20.chunk.css",
+    "main.js": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/main.870454e7.chunk.js",
+    "main.js.map": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/main.870454e7.chunk.js.map",
+    "runtime-main.js": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/runtime-main.3a9b68a6.js",
+    "runtime-main.js.map": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/runtime-main.3a9b68a6.js.map",
+    "static/css/2.c52fe20a.chunk.css": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/css/2.c52fe20a.chunk.css",
+    "static/js/2.c0b11d94.chunk.js": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/2.c0b11d94.chunk.js",
+    "static/js/2.c0b11d94.chunk.js.map": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/2.c0b11d94.chunk.js.map",
+    "index.html": "https://lambdulus.github.io/staging/pr/fix/smoke-test/index.html",
+    "static/css/2.c52fe20a.chunk.css.map": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/css/2.c52fe20a.chunk.css.map",
+    "static/css/main.75977b20.chunk.css.map": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/css/main.75977b20.chunk.css.map",
+    "static/js/2.c0b11d94.chunk.js.LICENSE.txt": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/js/2.c0b11d94.chunk.js.LICENSE.txt",
+    "static/media/codicon.css": "https://lambdulus.github.io/staging/pr/fix/smoke-test/static/media/codicon.68664da4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a9b68a6.js",
+    "static/css/2.c52fe20a.chunk.css",
+    "static/js/2.c0b11d94.chunk.js",
+    "static/css/main.75977b20.chunk.css",
+    "static/js/main.870454e7.chunk.js"
+  ]
+}
